@@ -13,7 +13,6 @@ makeCacheMatrix <- function(x = matrix()) {
         x <<- y
         xInverseMatrix <<- NULL 
     }
-    
     # get the value of the initial matrix
     get <- function() x 
     
